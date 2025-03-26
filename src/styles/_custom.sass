@@ -26,6 +26,8 @@
     color: #4A665C !important
   &-5
     background-color: #FAE8E3
+  &-6
+    background-color: #FDF6EA
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -68,6 +70,24 @@
     padding: 1rem
     &::after
       height: 100%
+.bg-h85-3
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 80%
+    transform: translateY(-0%)
+    background-color: #F7EAD7
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      height: 100%
 .border-top
   &.color-primario
     border-top: 5px solid $color-primario !important
@@ -85,11 +105,19 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
-    background-position: top
+    background-image: url("../assets/bg/bg1.svg") !important
+    background-position: bottom
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
@@ -219,18 +247,18 @@ $custom-card-img-height: 322px
   span
     font-size: 0.85em
 
-.large
+.large-2
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-primario, 20%)
   .linea-tiempo-d__item__content__title.active
     background-color: $color-primario !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: lighten($color-primario, 27%) !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-primario, 20%)
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
     background-color: $color-primario !important
   .linea-tiempo-d__item__dots:after
