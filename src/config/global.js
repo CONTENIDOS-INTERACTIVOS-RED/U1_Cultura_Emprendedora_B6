@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad:
+      'INTRODUCCIÓN Y CONCEPTOS GENERALES DE LA CULTURA DEL EMPRENDIMIENTO',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +16,81 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: '¿Qué es la Cultura Emprendedora?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Concepto de empresa',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'PYMES (Pequeñas y Medianas Empresas)',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Espíritu emprendedor',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Proceso de Planificación del Emprendedor',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
+            numero: '5.1',
+            titulo: 'Identificación de la idea de negocio',
+            hash: 't_5_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '5.2',
+            titulo: 'Estudio de mercado',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Definición del modelo de negocio',
+            hash: 't_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.4',
+            titulo: 'Elaboración del plan financiero',
+            hash: 't_5_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.5',
+            titulo: 'Estrategia de marketing y ventas',
+            hash: 't_5_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.6',
+            titulo: 'Ejecución y monitoreo',
+            hash: 't_5_6',
           },
         ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Creatividad y liderazgo en el emprendimiento',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +130,125 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Antón Pérez, J. J. & Garijo de Miguel, S. (2024). Empresa y administración: (1 ed.). Macmillan Iberia, S.A. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/267631',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'González, J. & Loidi, J. M. (2019). ADN PyME: claves para darle vida y mejorar tu PyME: ( ed.). Ediciones Granica. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/151209',
+    },
+    {
+      referencia:
+        'Pace, D. D. (2020). Economía pyme: pensar en grande siendo pequeños: ( ed.). Eudeba. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/153610',
+    },
+    {
+      referencia:
+        'Pace, D. D. (2020). Economía pyme: pensar en grande siendo pequeños: ( ed.). Eudeba. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/153610',
+    },
+    {
+      referencia:
+        'Varios, A. (2019). Fortalecimiento empresarial: capacitación y acompañamiento al espíritu emprendedor: (1 ed.). Editorial Unimar - Universidad Unimariana. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/224604',
+    },
+    {
+      referencia:
+        'Martorell, M. (2023). Código futuro: pequeños y grandes emprendedores te invitan a trabajar en tecnología: (1 ed.). Ediciones Granica. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/230418',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Análisis de mercado',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'proceso de estudio y evaluación de la demanda, competencia y tendencias del sector antes de lanzar un producto o servicio.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Autoempleo',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'modelo de trabajo en el que una persona genera su propio ingreso sin depender de un empleador.',
+    },
+    {
+      termino: '<em>Business Model Canvas</em> ',
+      significado:
+        'herramienta estratégica que permite visualizar y estructurar un modelo de negocio en nueve bloques clave.',
+    },
+    {
+      termino: 'Capital semilla',
+      significado:
+        'financiamiento inicial que recibe un emprendedor para poner en marcha su negocio.',
+    },
+    {
+      termino: 'Creatividad',
+      significado:
+        'capacidad de generar ideas originales e innovadoras para solucionar problemas o mejorar proceso',
+    },
+    {
+      termino: 'Desarrollo empresarial',
+      significado:
+        'conjunto de estrategias y procesos que permiten el crecimiento y sostenibilidad de un negocio en el mercado.',
+    },
+    {
+      termino: 'Ecosistema emprendedor',
+      significado:
+        'conjunto de actores (emprendedores, inversionistas, universidades, incubadoras) que fomentan el desarrollo de startups y negocios.',
+    },
+    {
+      termino: 'Empresa',
+      significado:
+        'organización que produce bienes o presta servicios con el objetivo de generar valor y rentabilidad.',
+    },
+    {
+      termino: 'Espíritu emprendedor',
+      significado:
+        'actitud proactiva y visionaria que impulsa a una persona a crear y gestionar proyectos innovadores.',
+    },
+    {
+      termino: 'Factibilidad del negocio',
+      significado:
+        'análisis de viabilidad que evalúa si una idea de negocio puede ser sostenible en el tiempo.',
+    },
+    {
+      termino: 'Idea de negocio',
+      significado:
+        'concepto inicial sobre un producto o servicio que puede convertirse en una empresa rentable.',
+    },
+    {
+      termino: 'Innovación',
+      significado:
+        'implementación de nuevas ideas, métodos o tecnologías para mejorar productos o procesos en un negocio.',
+    },
+    {
+      termino: 'Intraemprendimiento',
+      significado:
+        'desarrollo de iniciativas innovadoras dentro de una empresa existente para mejorar su competitividad.',
+    },
+    {
+      termino: 'Liderazgo',
+      significado:
+        'habilidad de motivar y guiar a un equipo de trabajo para alcanzar objetivos empresariales',
+    },
+    {
+      termino: 'Modelo de negocio',
+      significado:
+        'estructura que define cómo una empresa genera valor, entrega sus productos o servicios y obtiene ingresos.',
+    },
+    {
+      termino: 'Plan de negocios',
+      significado:
+        'documento estratégico que describe los objetivos, estrategias y recursos necesarios para desarrollar un emprendimiento.',
+    },
+    {
+      termino: '<em>PYMES</em>',
+      significado:
+        'pequeñas y medianas empresas que tienen una estructura organizativa y volumen de ingresos más reducidos en comparación con grandes corporaciones.',
+    },
+    {
+      termino: '<em>Startup</em>',
+      significado:
+        'empresa emergente con alto potencial de crecimiento basada en la innovación y el uso de tecnología.',
     },
   ],
 }
