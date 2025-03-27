@@ -70,25 +70,25 @@
             LineaTiempoD.color-primario.large-3(data-aos="fade-left")
               div(numero="XVIII" titulo="Siglo XVIII - Richard Cantillon") 
                 .row.align-items-center
-                  .col-lg-auto
+                  .col-lg-auto.mb-3.mb-lg-0
                     img(src="@/assets/curso/tema4/7.png").mx-auto
                   .col-lg 
                     p Acuñó el término "emprendedor" para describir a quienes asumían riesgos para obtener beneficios.
               div(numero="XIX" titulo="Siglo XIX - Joseph Schumpeter") 
                 .row.align-items-center
-                  .col-lg-auto
+                  .col-lg-auto.mb-3.mb-lg-0
                     img(src="@/assets/curso/tema4/8.png").mx-auto
                   .col-lg 
                     p Introdujo la teoría de la "destrucción creativa", resaltando al emprendedor como motor del cambio económico.
               div(numero="XX" titulo="Siglo XX - Peter Drucker") 
                 .row.align-items-center
-                  .col-lg-auto
+                  .col-lg-auto.mb-3.mb-lg-0
                     img(src="@/assets/curso/tema4/9.png").mx-auto
                   .col-lg 
                     p Destacó el emprendimiento como clave en la gestión empresarial y el desarrollo de mercados.
               div(numero="XXI" titulo="Siglo XXI - Revolución digital") 
                 .row.align-items-center
-                  .col-lg-auto
+                  .col-lg-auto.mb-3.mb-lg-0
                     img(src="@/assets/curso/tema4/10.png").mx-auto
                   .col-lg 
                     p La tecnología ha redefinido el emprendimiento, impulsando startups y modelos de negocio escalables.

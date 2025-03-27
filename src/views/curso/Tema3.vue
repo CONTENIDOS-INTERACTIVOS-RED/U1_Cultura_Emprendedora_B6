@@ -5,23 +5,23 @@
 
     p.mb-4 Las PYMES son organizaciones económicas con un número limitado de empleados, una facturación moderada y una estructura organizativa flexible. Son fundamentales para el desarrollo económico, ya que generan empleo, fomentan la innovación y dinamizan los mercados locales. El término PYME varía según el país y las normativas locales, pero en general se define en función de los siguientes criterios:
 
-    .row
+    .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
-        .bg-color-1.mb-5.p-4(data-aos="fade-up")
+        .bg-color-1.p-4(data-aos="fade-up")
           .row
             .col-lg-3
               h5 01
             .col-lg-9.align-items-center
               p.mb-0(data-aos="fade-up") Número de empleados.
       .col-lg-4.mb-3.mb-lg-0
-        .bg-color-1.mb-5.p-4(data-aos="fade-up")
+        .bg-color-1.p-4(data-aos="fade-up")
           .row
             .col-lg-3
               h5 02
             .col-lg-9.align-items-center
               p.mb-0(data-aos="fade-up") Volumen de ventas anual.
       .col-lg-4.mb-3.mb-lg-0
-        .bg-color-1.mb-5.p-4(data-aos="fade-up")
+        .bg-color-1.p-4(data-aos="fade-up")
           .row
             .col-lg-3
               h5 03
