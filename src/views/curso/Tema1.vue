@@ -22,8 +22,6 @@
         figure
           img(src="@/assets/curso/tema1/2.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
       .col-lg-8
-        p(data-aos="fade-left") 
-        
         LineaTiempoD.color-primario.large(data-aos="fade-left")
           p(numero="1" titulo="Revolución Industrial (Siglo XVIII-XIX)") Innovación tecnológica y eficiencia productiva. Surgen empresarios como Henry Ford con la producción en cadena.
           p(numero="2" titulo="Escuelas de pensamiento económico (Siglo XIX-XX)") Joseph Schumpeter define el emprendimiento como motor de la innovación y la destrucción creativa. Se populariza el intraemprendimiento.

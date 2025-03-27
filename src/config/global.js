@@ -46,44 +46,6 @@ export default {
         numero: '5',
         titulo: 'Proceso de Planificación del Emprendedor',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Identificación de la idea de negocio',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Estudio de mercado',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Definición del modelo de negocio',
-            hash: 't_5_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.4',
-            titulo: 'Elaboración del plan financiero',
-            hash: 't_5_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.5',
-            titulo: 'Estrategia de marketing y ventas',
-            hash: 't_5_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.6',
-            titulo: 'Ejecución y monitoreo',
-            hash: 't_5_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
