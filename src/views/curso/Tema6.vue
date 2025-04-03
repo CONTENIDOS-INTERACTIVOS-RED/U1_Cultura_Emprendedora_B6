@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. <em>PYMES</em> (Pequeñas y Medianas Empresas)'")
+  BannerInterno(:subTitulo="'6. Creatividad y liderazgo en el emprendimiento'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .bg-color-2.mb-5(data-aos="fade-up")
