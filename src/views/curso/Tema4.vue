@@ -198,6 +198,14 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://economipedia.com/definiciones/creatividad.html" target="_blank" rel="noopener noreferrer") Rosario Peiró.(1 agosto 2021). Creatividad. 
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/224604" target="_blank" rel="noopener noreferrer") Bucheli MC [et al] (2019). Fortalecimiento empresarial: capacitación y acompañamiento al espíritu emprendedor. Editorial: Editorial Unimar - Universidad Unimariana.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/dCJP5xqEcWU?si=eQsaRldxzxklQarS" target="_blank" rel="noopener noreferrer") MOOCUnican (2021, 17 de julio). Técnicas de Creatividad: Módulo 1 - Innovación y Espíritu Emprendedor [Video].
+
            
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

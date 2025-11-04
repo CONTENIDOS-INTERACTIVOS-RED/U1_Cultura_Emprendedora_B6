@@ -140,6 +140,14 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://economipedia.com/definiciones/innovacion.html" target="_blank" rel="noopener noreferrer") Rosario Peiró(25 enero 2024). Innovación: Definición, áreas y beneficios. 
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/129642" target="_blank" rel="noopener noreferrer") Herruzo-Gómez y otros. (2019). Emprendimiento e innovación: oportunidades para todos. Editorial: Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/thWpywepWwY?si=sO0BH_yZA3pIOTlo" target="_blank" rel="noopener noreferrer") Negocios en tu mundo. (2017, 13 de diciembre). Mario Alonso Puig, Neuroliderazgo y Creatividad - [Negocios en Tm]. [Video] Youtube.
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')

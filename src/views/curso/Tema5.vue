@@ -316,6 +316,14 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://economipedia.com/definiciones/liderazgo.html" target="_blank" rel="noopener noreferrer") Pablo Orellana Nirian,(30 julio 2024). Liderazgo: Qué es y cómo influir en un equipo.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/67489" target="_blank" rel="noopener noreferrer") Moreno C. (2016). Emprendimiento y plan de negocio. RIL editores.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/DqskpjrrHRc?si=iISxMzQXEPjsxL24" target="_blank" rel="noopener noreferrer") Nodocios conectando empresas y emprendimientos (2013, 9 de diciembre). WAKE UP PLANIFICAR Y ACCIONAR DEL EMPRENDEDOR ALEJANDRO MOTTA [Video] YouTube.
+
            
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
